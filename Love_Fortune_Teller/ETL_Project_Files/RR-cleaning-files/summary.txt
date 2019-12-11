@@ -1,0 +1,9 @@
+- looked at all csv files, pulled out caseid_new and all columns starting with "w"
+- made a new df for each wave (waves 2-6): "wave2_full", "wave3_full", etc
+  - for waves 2-3, dropped all rows in which people were disqualified for study (not in relationships) --> 3009 rows qualified
+  - for waves 2-6, added a column "caseid_wave" which concatenated the caseid_new + wave# (ex: 2543_2)
+  - for waves 2-5, added a column "qualified?" which took the inconsistently named responses from columns 'w3_xqualified', 'w4_xqualified', 'w4_xqualified', 'w5x_qualified' and turned them into "qualified" or "disqualified"
+      - note: for wave 2, labeled everyone as qualified based on the fact that i had just deleted all disqualified rows.
+      - note: wave 6 does not have a 'w6x_qualified' column, I still need to figure out the best way to fill the "qualified?" column     
+- looked through the columns for each wave#_full df and only pulled out ones I thought were necessary (or maybes) and made a new df from that named: "wv2_w", "wv3_w", etc
+

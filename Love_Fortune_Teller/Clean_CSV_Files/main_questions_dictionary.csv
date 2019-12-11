@@ -1,0 +1,193 @@
+0,
+caseid_new,unique id
+irb_consent,participation consent
+weight3,
+weight4,
+weight5,
+weight6,
+weight7,
+weight_couples_coresident,
+HCMST_main_interview_yrmo,year and month HCMST main survey was completed in YYYYMM format
+duration,"interview duration in minutes, rounded down"
+qflag,Does respondent have a spouse or partner?
+glbstatus,glb status including asking again those who refused to answer in the PAP
+papglb_status,"q23: are you yourself gay, lesbian, or bisexual?"
+recsource,recruitment source
+s1,are you married?
+s1a,"are you yourself gay, lesbian, or bisexual?"
+s2,"do you have a boyfriend, a girlfriend, a sexual partner or a romantic partner?"
+q3_codes,name was refused
+q4,partner gender
+q5,is partner same gender as applicant?
+q6a,is partner hispanic or latino?
+q6b,what is partner's race?
+q7a,would [partner_name] describe [himself/herself/themself] as a born-again or evan
+q7b,what is [partner_name]'s religion?
+q8a,is [partner_name]’s religion today the same as [partner_name]’s religion when [you met]
+q8b,what was [partner_name]’s religion when [he/she/they] was/were 16 years old?
+q9,partner age
+q10,highest level of schooling partner attended
+q11,highest level of schooling partner's mother attended
+q12,political standing
+q13a,is your religion today the same as your religion when you were 16 years old?
+q13b,what was your religion when you were 16 years old?
+q14,highest level of schooling attendant's mother completed
+q15a1_compressed,"between birth and age 16, where did you spend most of the time living"
+q16,how many of your relatives do you see in person at least once a month?
+q17a,"including your current marriage, how many times have you been married?"
+q17b,how many times have you been married?
+q17c,"What gender are you most attracted to, sexually? (for women)"
+q17d,"What gender are you most attracted to, sexually? (for men)"
+gender_attraction,
+q18a_1,Have domestic partnership
+q18a_2,Have Civil Union
+q18a_3,Have neither Domestic Partnership nor Civil Union
+q18a_refused,question was refused
+q18b_codes,
+q18c_codes,
+q19,currently living with partner?
+q20,have they ever lived with partner?
+q21a,how old were you when you met [partner]?
+q21a_refusal,
+q21b,how old were you when your romantic relationship with [partner_name] began?
+q21b_refusal,
+q21c,how old were you when you first lived together with [partner_name]?
+q21c_refusal,
+q21d,how old were you when you married [partner_name]?
+q21d_refusal,
+q21e,how old were you when you joined in domestic partnership or civil union with [partner]?
+q21e_refusal,
+q22,how long have you been in a romantic relationship with [partner_name]?
+q23,"between you and [partner_name], who earned more income in 2008:"
+q24_codes,
+q25,did you and [partner_name] attend the same high school?
+q26,did you and [partner_name] attend the same college or university?
+q27,did you and [partner_name] grow up in the same city or town?
+q28,did your parents know [partner_name]’s parents before you met [partner_name]?
+q29,which of your parents are alive today:
+q30,how does your [father and mother/father/mother] feel about [partner_name]?
+q31_1,met at work
+q31_2,met at school
+q31_3,met at church/church activity
+q31_4,"met through personal ads/dating service via
+ the internet"
+q31_5,met on vacation/business trip
+q31_6,met at [bar/nightclub/dance club]
+q31_7,"met at social organization/health
+ club/gym/volunteer-service
+ activity"
+q31_8,met at private party
+q31_9,"if other, where?"
+q31_other_text_entered,other was entereed
+q32,
+q33_1,
+q33_2,
+q33_3,
+q33_4,
+q33_5,
+q33_6,
+q33_7,
+q33_other_text_entered,
+q34,
+q35_codes,
+q35_text_entered,
+q24_met_online,
+summary_q24_total,
+q24_R_cowork,
+q24_R_friend,
+q24_R_family,
+q24_R_sig_other,
+q24_R_neighbor,
+q24_P_cowork,
+q24_P_friend,
+q24_P_family,
+q24_P_sig_other,
+q24_P_neighbor,
+q24_btwn_I_cowork,
+q24_btwn_I_friend,
+q24_btwn_I_family,
+q24_btwn_I_sig_other,
+q24_btwn_I_neighbor,
+q24_school,
+q24_college,
+q24_military,
+q24_church,
+q24_vol_org,
+q24_customer,
+q24_bar_restaurant,
+q24_internet_dating,
+q24_internet_social_networking,
+q24_internet_game,
+q24_internet_chat,
+q24_internet_community,
+q24_internet_other,
+q24_public,
+q24_private_party,
+q24_blind_date,
+q24_vacation,
+q24_singles_service_non_internet,
+q24_business_trip,
+q24_work_neighbor,
+q24_fam_sister_active,
+q24_fam_brother_active,
+q24_fam_mother_active,
+q24_fam_father_active,
+q24_fam_other_active,
+q24_fam_cousins_active,
+q24_fam_aunt_niece_active,
+q24_fam_uncle_nephew_active,
+q24_fam_grandmother_active,
+q24_fam_grandfather_active,
+q24_fam_sister_passive,
+q24_fam_brother_passive,
+q24_fam_mother_passive,
+q24_fam_father_passive,
+q24_fam_other_passive,
+q24_fam_cousins_passive,
+q24_fam_aunt_niece_passive,
+q24_fam_uncle_nephew_passive,
+q24_fam_grandmother_passive,
+q24_fam_grandfather_passive,
+q24_fam_female,
+q24_fam_male,
+distancemoved_10mi,
+marrynotreally,
+marrycountry,
+civilnotreally,
+partner_deceased,
+partner_religion_reclassified,
+partner_religion_child_reclass,
+own_religion_child_reclass,
+q32_internet,
+how_met_online,
+either_internet,
+either_internet_adjusted,
+same_sex_couple,
+potential_partner_gender_recodes,
+alt_partner_gender,
+how_long_ago_first_met,
+how_long_ago_first_romantic,
+how_long_ago_first_cohab,
+how_long_ago_first_met_cat,
+how_long_relationship,
+respondent_race,
+partner_race,
+age_difference,
+met_through_friends,
+met_through_family,
+met_through_as_neighbors,
+met_through_as_coworkers,
+respondent_religion_at_16,
+respondent_relig_16_cat,
+partner_religion_at_16,
+partner_relig_16_cat,
+married,
+parental_approval,
+respondent_yrsed,
+partner_yrsed,
+home_country_recode,
+US_raised,
+partner_mom_yrsed,
+respondent_mom_yrsed,
+relationship_quality,
+coresident,
