@@ -1,197 +1,197 @@
-Column Label	column label	drop or not
-" 'caseid_new',"		
- 'w2_broke_up'		
- 'w2_xmarry'	           	
- 'w2_deceased'		
-#  'w2_multiname'		drop
- 'w2_panelstat'		
- 'w2_donotcontact'		
- 'w2_assigned'		
- 'w2_f1complete'		
- 'w2_HCMST_interview_fin_yrmo'		
-#  'w2_duration'		drop
- 'w2_xss'		
-#  'w2_source'		drop
- 'w2_q1'		
- 'w2_q5'		
- 'w2_q2'		
- 'w2_q3'		
- 'w2_q4'		
- 'w2_q6'		
- 'w2_q7'		
- 'w2_q8'		
- 'w2_q9'		
- 'w2_q10'		
- #'w2_days_elapsed'		drop
-		
-" 'caseid_new',"		
-" 'w2w3_combo_breakup',"		
- 'w3_broke_up'		
- 'w3_xmarry'		
- 'w3_xdeceased'		
-'w3_xpartnered'		
-#  'w3_multiname'		drop
- 'w3_xss'		
- 'w3_xlast'		
- 'w3_xyear'		
-#  'w3_xmonth'		drop
- 'w3_xqualified'		
- 'w3_status'		
- 'w3_complete'	 # complete wave 3 survey?	
-#  'w3_source'	 # online or telephone interview?	drop
- 'w3_HCMST_interview_fin_yrmo'	 # year/month of 3rd wave interview	
- 'w3_days_elapsed'		
-#  'w3_duration'		drop
- 'w3_xtype'	 # same-sex or heterosexual?	
- 'w3_q1'	 # still married?	
- 'w3_q2'	 # still living together?	
-  'w3_q3'	 # how did marriage end?	
-  'w3_q4'	 # who wanted marriage to end more?	
- 'w3_mbtiming_year'		
-#  'w3_mbtiming_month'		drop
- 'w3_q5'	 # still in romantic relationship with partner?	
- 'w3_q6'	 # currently living with partner?	
- 'w3_q7'	 # have you and partner gotten married in last year	
- 'w3_q8'		
-  'w3_q9'	 # how did relationship end	
-  'w3_q10'	 # who wanted to break up more	
-  'w3_nonmbtiming_year'	 ### year of breakup	
-#  'w3_nonmbtiming_month'		drop
-		
-		
-" 'caseid_new',"		
-'w4_broke_up'		
- 'w234_combo_breakup'		
- 'w4_xqualified'		
- 'w4_status'		
- 'w4_complete'		
-#  'w4_source'		drop
-#  'w4_duration'		drop
- 'w4_HCMST_interview_fin_yrmo'		
- 'w4_xtype'		
- 'w4_xyear'		
-# 'w4_xmonth'		drop
-# 'w4_xmarry'		drop
- 'w4_xlast'		
-# 'w4_xwave1_month'		drop
-# 'w4_xcivil'		drop
- 'w4_xss'		
- 'w4_q1'		
- 'w4_q2'		
- 'w4_quality'		
-'relationship_quality_w4'		
- 'w4_attractive'		
- 'w4_attractive_partner'		
- 'w4_q3'		
- 'w4_q4'		
-# 'w4_mbtiming_year'		drop
- 'w4_mbtiming_month'		
- 'w4_q5'		
- 'w4_q6'		
- 'w4_q7'		
-# 'w4_mar_year'		drop
-# 'w4_mar_month'		drop
- 'w4_civ_year'		
- 'w4_q8_a'		
- 'w4_q8_b'		
- 'w4_q9'		
- 'w4_q10'		
-# 'w4_nonmbtiming_year'		drop
-# 'w4_nonmbtiming_month'		drop
-		
-		
-" 'caseid_new',"		
-" 'w5_duration',"	length of interview	drop
-" 'w5_source',"		drop
-" 'w5_complete',"	Wave 5 completion flag	
-" 'w5_status',"		
-" 'w5x_qualified',"	Is subject qualified to take wave 5 or not	
-" 'w5x_marry',"	married as of last contact before wave 5	
-" 'w5x_last',"	how many years ago was last contact	
-" 'w5x_year',"	year of last contact	
-" 'w5x_civil',"	does subject have a civil union or domestic partnership prior to wave 5	
-" 'w5x_month',"	month of last contact	
-" 'w5x_civyear',"	year last asked the civil union question	
-" 'w5x_civmonth',"	month last asked the civil union question	drop
-" 'w5_q1',"	Are you still married to [xname]?	
-" 'w5_q2',"	Are you currently living with [wxnamep]?	
-" 'w5_sex_frequency',"	"During the last 12 months, about how often did you have sex with [name]? Was it."	
-" 'w5_p_monogamy',"	Do you expect [name] to have sexual activity only with you?	
-" 'w5_identity',"		
-" 'w5_outness',"	"Thinking about the important people in your life, how many are aware that you ar"	
-" 'w5_q3',"	How did your marriage to [name] end?	
-" 'w5_q4',"	"Between you and [name], who wanted the [divorce/seperation] more?"	
-" 'w5_mbtiming_month',"		
-" 'w5_mbtiming_year',"		
-" 'w5_q5',"	Are you still in a romantic relationship with [name]?	
-" 'w5_q6',"		
-" 'w5_q7',"		
-" 'w5_mar_year',"		
-" 'w5_mar_month',"		
-" 'w5_q8',"		
-" 'w5_civ_year',"		
-" 'w5_civ_month',"		
-" 'w5_q9',"	How did your relationship with [name] end?	
-" 'w5_q10',"	"Between you and [name], who wanted more to break up?"	
-" 'w5_nonmbtiming_year',"		
-" 'w5_nonmbtiming_month',"		
-" 'w5_broke_up',"		
-" 'w5_HCMST_interview_fin_yrmo',"		
-" 'w2345_combo_breakup',"		
-		
-		
-" 'caseid_new',"		
- 'xw6_year'		
- 'xw6_month'		
- 'xw6_last'		
- 'xw6_marry'		
- 'w6_still_mar'		
- 'w6_live_together'		
- 'w6_otherdate'		
- 'w6_how_many'		
-#  'w6_otherdate_app'		drop
- 'w6_how_many_app'		
- 'w6_relationship_end_mar'		
- 'w6_who_breakup'		
- 'w6_mbtiming_Year'		
- 'w6_mbtiming_Month'		
- 'w6_partner_passaway_Year'		
- 'w6_partner_passaway_Month'		
-#  'w6_otherdate_B'		drop
-#  'w6_how_many_B'		drop
-#  'w6_otherdate_app_B'		drop
-#  'w6_how_many_app_B'		drop
- 'w6_still_rel'		
- 'w6_live_together_C'		
- 'w6_got_married'		
- 'w6_martiming_Year'		
-#  'w6_martiming_Month'		drop
- 'w6_otherdate_C'		
- 'w6_how_many_C'		
- 'w6_otherdate_app_C'		
- 'w6_how_many_app_C'		
- 'w6_relationship_end_nonmar'		
- 'w6_who_breakup_C'		
- 'w6_nonmbtiming_Year'		
-#  'w6_nonmbtiming_Month'		drop
- 'w6_partner_passaway_C_Year'		
-#  'w6_partner_passaway_C_Month'		drop
-#  'w6_otherdate_C2'		drop
-#  'w6_how_many_C2'		drop
-#  'w6_otherdate_app_C2'		drop
-#  'w6_how_many_app_C2'		drop
- 'w6_relate_status'		
- 'w6_broke_up'		
- 'w6_met_through_friends'		
- 'w6_met_through_family'		
- 'w6_met_online'		
- 'w6_met_through_as_coworkers'		
- 'w6_met_online_dating'		
- 'w6_met_bar_restaurant'		
-#  'w6_how_met_story_length'		drop
- 'w6_combo_live_together'		
- 'w6_otherdate_combo'		
- 'w6_how_many_combo'		
- 'w6_otherdate_app_combo'		
- 'w6_how_many_app_combo'		
- 'w6_HCMST_yrmo'  		
+"Column Label	column label	drop or not",
+" 'caseid_new',		",
+" 'w2_broke_up'		",
+" 'w2_xmarry'	           	",
+" 'w2_deceased'		",
+"#  'w2_multiname'		drop",
+" 'w2_panelstat'		",
+" 'w2_donotcontact'		",
+" 'w2_assigned'		",
+" 'w2_f1complete'		",
+" 'w2_HCMST_interview_fin_yrmo'		",
+"#  'w2_duration'		drop",
+" 'w2_xss'		",
+"#  'w2_source'		drop",
+" 'w2_q1'		",
+" 'w2_q5'		",
+" 'w2_q2'		",
+" 'w2_q3'		",
+" 'w2_q4'		",
+" 'w2_q6'		",
+" 'w2_q7'		",
+" 'w2_q8'		",
+" 'w2_q9'		",
+" 'w2_q10'		",
+" #'w2_days_elapsed'		drop",
+"		",
+" 'caseid_new',		",
+" 'w2w3_combo_breakup',		",
+" 'w3_broke_up'		",
+" 'w3_xmarry'		",
+" 'w3_xdeceased'		",
+"'w3_xpartnered'		",
+"#  'w3_multiname'		drop",
+" 'w3_xss'		",
+" 'w3_xlast'		",
+" 'w3_xyear'		",
+"#  'w3_xmonth'		drop",
+" 'w3_xqualified'		",
+" 'w3_status'		",
+" 'w3_complete'	 # complete wave 3 survey?	",
+"#  'w3_source'	 # online or telephone interview?	drop",
+" 'w3_HCMST_interview_fin_yrmo'	 # year/month of 3rd wave interview	",
+" 'w3_days_elapsed'		",
+"#  'w3_duration'		drop",
+" 'w3_xtype'	 # same-sex or heterosexual?	",
+" 'w3_q1'	 # still married?	",
+" 'w3_q2'	 # still living together?	",
+"  'w3_q3'	 # how did marriage end?	",
+"  'w3_q4'	 # who wanted marriage to end more?	",
+" 'w3_mbtiming_year'		",
+"#  'w3_mbtiming_month'		drop",
+" 'w3_q5'	 # still in romantic relationship with partner?	",
+" 'w3_q6'	 # currently living with partner?	",
+" 'w3_q7'	 # have you and partner gotten married in last year	",
+" 'w3_q8'		",
+"  'w3_q9'	 # how did relationship end	",
+"  'w3_q10'	 # who wanted to break up more	",
+"  'w3_nonmbtiming_year'	 ### year of breakup	",
+"#  'w3_nonmbtiming_month'		drop",
+"		",
+"		",
+" 'caseid_new',		",
+"'w4_broke_up'		",
+" 'w234_combo_breakup'		",
+" 'w4_xqualified'		",
+" 'w4_status'		",
+" 'w4_complete'		",
+"#  'w4_source'		drop",
+"#  'w4_duration'		drop",
+" 'w4_HCMST_interview_fin_yrmo'		",
+" 'w4_xtype'		",
+" 'w4_xyear'		",
+"# 'w4_xmonth'		drop",
+"# 'w4_xmarry'		drop",
+" 'w4_xlast'		",
+"# 'w4_xwave1_month'		drop",
+"# 'w4_xcivil'		drop",
+" 'w4_xss'		",
+" 'w4_q1'		",
+" 'w4_q2'		",
+" 'w4_quality'		",
+"'relationship_quality_w4'		",
+" 'w4_attractive'		",
+" 'w4_attractive_partner'		",
+" 'w4_q3'		",
+" 'w4_q4'		",
+"# 'w4_mbtiming_year'		drop",
+" 'w4_mbtiming_month'		",
+" 'w4_q5'		",
+" 'w4_q6'		",
+" 'w4_q7'		",
+"# 'w4_mar_year'		drop",
+"# 'w4_mar_month'		drop",
+" 'w4_civ_year'		",
+" 'w4_q8_a'		",
+" 'w4_q8_b'		",
+" 'w4_q9'		",
+" 'w4_q10'		",
+"# 'w4_nonmbtiming_year'		drop",
+"# 'w4_nonmbtiming_month'		drop",
+"		",
+"		",
+" 'caseid_new',		",
+" 'w5_duration',	length of interview	drop",
+" 'w5_source',		drop",
+" 'w5_complete',	Wave 5 completion flag	",
+" 'w5_status',		",
+" 'w5x_qualified',	Is subject qualified to take wave 5 or not	",
+" 'w5x_marry',	married as of last contact before wave 5	",
+" 'w5x_last',	how many years ago was last contact	",
+" 'w5x_year',	year of last contact	",
+" 'w5x_civil',	does subject have a civil union or domestic partnership prior to wave 5	",
+" 'w5x_month',	month of last contact	",
+" 'w5x_civyear',	year last asked the civil union question	",
+" 'w5x_civmonth',	month last asked the civil union question	drop",
+" 'w5_q1',	Are you still married to [xname]?	",
+" 'w5_q2',	Are you currently living with [wxnamep]?	",
+" 'w5_sex_frequency',	""During the last 12 months"," about how often did you have sex with [name]? Was it.""	"
+" 'w5_p_monogamy',	Do you expect [name] to have sexual activity only with you?	",
+" 'w5_identity',		",
+" 'w5_outness',	""Thinking about the important people in your life"," how many are aware that you ar""	"
+" 'w5_q3',	How did your marriage to [name] end?	",
+" 'w5_q4',	""Between you and [name]"," who wanted the [divorce/seperation] more?""	"
+" 'w5_mbtiming_month',		",
+" 'w5_mbtiming_year',		",
+" 'w5_q5',	Are you still in a romantic relationship with [name]?	",
+" 'w5_q6',		",
+" 'w5_q7',		",
+" 'w5_mar_year',		",
+" 'w5_mar_month',		",
+" 'w5_q8',		",
+" 'w5_civ_year',		",
+" 'w5_civ_month',		",
+" 'w5_q9',	How did your relationship with [name] end?	",
+" 'w5_q10',	""Between you and [name]"," who wanted more to break up?""	"
+" 'w5_nonmbtiming_year',		",
+" 'w5_nonmbtiming_month',		",
+" 'w5_broke_up',		",
+" 'w5_HCMST_interview_fin_yrmo',		",
+" 'w2345_combo_breakup',		",
+"		",
+"		",
+" 'caseid_new',		",
+" 'xw6_year'		",
+" 'xw6_month'		",
+" 'xw6_last'		",
+" 'xw6_marry'		",
+" 'w6_still_mar'		",
+" 'w6_live_together'		",
+" 'w6_otherdate'		",
+" 'w6_how_many'		",
+"#  'w6_otherdate_app'		drop",
+" 'w6_how_many_app'		",
+" 'w6_relationship_end_mar'		",
+" 'w6_who_breakup'		",
+" 'w6_mbtiming_Year'		",
+" 'w6_mbtiming_Month'		",
+" 'w6_partner_passaway_Year'		",
+" 'w6_partner_passaway_Month'		",
+"#  'w6_otherdate_B'		drop",
+"#  'w6_how_many_B'		drop",
+"#  'w6_otherdate_app_B'		drop",
+"#  'w6_how_many_app_B'		drop",
+" 'w6_still_rel'		",
+" 'w6_live_together_C'		",
+" 'w6_got_married'		",
+" 'w6_martiming_Year'		",
+"#  'w6_martiming_Month'		drop",
+" 'w6_otherdate_C'		",
+" 'w6_how_many_C'		",
+" 'w6_otherdate_app_C'		",
+" 'w6_how_many_app_C'		",
+" 'w6_relationship_end_nonmar'		",
+" 'w6_who_breakup_C'		",
+" 'w6_nonmbtiming_Year'		",
+"#  'w6_nonmbtiming_Month'		drop",
+" 'w6_partner_passaway_C_Year'		",
+"#  'w6_partner_passaway_C_Month'		drop",
+"#  'w6_otherdate_C2'		drop",
+"#  'w6_how_many_C2'		drop",
+"#  'w6_otherdate_app_C2'		drop",
+"#  'w6_how_many_app_C2'		drop",
+" 'w6_relate_status'		",
+" 'w6_broke_up'		",
+" 'w6_met_through_friends'		",
+" 'w6_met_through_family'		",
+" 'w6_met_online'		",
+" 'w6_met_through_as_coworkers'		",
+" 'w6_met_online_dating'		",
+" 'w6_met_bar_restaurant'		",
+"#  'w6_how_met_story_length'		drop",
+" 'w6_combo_live_together'		",
+" 'w6_otherdate_combo'		",
+" 'w6_how_many_combo'		",
+" 'w6_otherdate_app_combo'		",
+" 'w6_how_many_app_combo'		",
+" 'w6_HCMST_yrmo'  		",
