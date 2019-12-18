@@ -26,27 +26,27 @@
         </ul>
     </header>
     <div class="jumbotron jumbotron-fluid">
-        <div class="container justify-content-center text-center align-items-center qtext">
+        <div class="container justify-content-center text-center align-items-center qtext background">
             <h1 class="display-4">So you already found someone, hmm?</h1>
             <p class="lead">Well, then how compatible are you?<br> Even magic could use a bit of help, so let's find out a little more about that...</p>
-        </div>
+        </div>  
     </div>
-    <div class="container-fluid qtext">
-        <div class="row justify-content-md-center">
+    <div class="container-fluid qtext questionairre">
+        <div class="row justify-content-md-center question_margin">
             <div class="col-3">
-                <p>Where did you two meet?<button type="button" class="btn" data-toggle="popover" data-placement="top" data-container="body" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"><span class="glyphicon glyphicon-question-sign"></span></button></p>
+                <p>*    Where did you two meet?<button type="div" class="btn" data-toggle="popover" data-placement="top" data-container="body" title="hover information" data-content="And here's some amazing content. It's very engaging. Right?"><span class="glyphicon glyphicon-question-sign"></span></button></p>
             </div>
         </div>
         <div class="row justify-content-md-center">
             <div class="col-3">
                 <form action="results.html">
                 <select class="form-control" required>
-                    <option value="">Selectable 1</option>
+                    <option selected="true" disabled="disabled" value="">Place Met</option>
                     <option>Selectable 2</option>
                 </select>
             </div>
         </div>
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center question_margin">
             <div class="col-3">
                 <p>Is there an age gap?</p>
             </div>
@@ -54,12 +54,12 @@
         <div class="row justify-content-md-center">
             <div class="col-3">
                 <select class="form-control">
-                    <option>Selectable 1</option>
+                    <option class="unselected" >Selectable 1</option>
                     <option>Selectable 2</option>
                 </select>
             </div>
         </div>
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center question_margin">
             <div class="col-3">
                 <p>What is your relationship orientation?</p>
             </div>
@@ -72,7 +72,7 @@
                 </select>
             </div>
         </div>
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center question_margin">
             <div class="col-3">
                 <p>Do you have kids?</p>
             </div>
@@ -86,7 +86,7 @@
             </div>
         </div>
         <div class="row justify-content-md-center">
-            <input class="btn btn-primary my-2" type="submit" value="Submit">
+             <input class="btn btn-primary my-2" id="btn2" type="submit" value="Submit">
         </form>
         </div>
     </div>

@@ -1,3 +1,3 @@
-$(function () {
-    $('[data-toggle="popover"]').popover()
-  })
+$(".tooltiptext").mouseover(function(){
+    alert('Please select the most accurate option');
+ });

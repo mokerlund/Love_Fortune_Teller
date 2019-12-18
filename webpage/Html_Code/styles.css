@@ -4,37 +4,65 @@ div.jumbotron {
     padding: 5%    
 }
 
-.qtext {
+#btn1 {
+    background-color: #5a4254;
+    border-color: #5c4552;
+}
+
+#btn2 {
+    background-color: #5a4254;
+    border-color: #5c4552;
+    opacity: 100%;
+}
+
+.nav-link {
     color: white;
 }
 
-/* .container {
-    padding: 40px;
-} */
+.nav-link.active {
+    color: #5c4552;
+}
+
+.qtext {
+    color: white;
+    text-shadow: .5px .5px 15px black;
+}
+
+.question_margin {
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+}
+
+.row {
+    margin: 0px;
+}
+
+.questionairre {
+    opacity: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 8px 0px 50px;
+    background-color: transparent;
+    background-image: url(../images/billie-holiday.png);
+    /* border-radius: 50px */
+}
 
 .background {
-    padding-top: 8px;
-    padding-bottom: 50px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding: 8px 6px 50px 6px;
     opacity: 80%;
     background-color: transparent;
     background-image: url(../images/billie-holiday.png);
     border-radius: 50px
 }
-/* 
-#boldtext {
-    color: white;
-    opacity: 100%;
-} */
 
 p.crystal {
     padding-top: 150px;
+    padding-bottom: 10px;
 }
 
 header {
     background-image: url(../images/assault.png);
-    opacity: 75%;
+    /* opacity: 85%; */
 }
 
 #main {
