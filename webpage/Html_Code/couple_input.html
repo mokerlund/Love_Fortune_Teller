@@ -15,13 +15,13 @@
                 <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="couple_input.html">Link</a>
+                <a class="nav-link active" href="couple_input.html">Questionaire</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="results.html">Results</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Background</a>
+                <a class="nav-link" href="background.html">Background</a>
             </li>
         </ul>
     </header>
@@ -34,7 +34,7 @@
     <div class="container-fluid qtext questionairre">
         <div class="row justify-content-md-center question_margin">
             <div class="col-3">
-                <p>*    Where did you two meet?<button type="div" class="btn" data-toggle="popover" data-placement="top" data-container="body" title="hover information" data-content="And here's some amazing content. It's very engaging. Right?"><span class="glyphicon glyphicon-question-sign"></span></button></p>
+                <p>*    Where did you two meet?<button type="div" class="btn infotab" data-toggle="popover" data-placement="top" data-container="body"><span class="glyphicon glyphicon-question-sign"></span></button></p>
             </div>
         </div>
         <div class="row justify-content-md-center">
@@ -42,46 +42,91 @@
                 <form action="results.html">
                 <select class="form-control" required>
                     <option selected="true" disabled="disabled" value="">Place Met</option>
-                    <option>Selectable 2</option>
+                    <option value="online">Met Online</option>
+                    <option value="work">Met at Work</option>
+                    <option value="school">Met at School</option>
+                    <option value="church">Met at Church</option>
+                    <option value="travel">Met While Traveling</option>
+                    <option value="social">Met at a Social Organization (i.e. health club, volunteer service)</option>
+                    <option value="private">Met at a Private Party/through family and friends</option>
+                    <option value="neighbors">Met as neighbors</option>
+                    <option value="other">Other</option>
+
                 </select>
             </div>
         </div>
         <div class="row justify-content-md-center question_margin">
             <div class="col-3">
-                <p>Is there an age gap?</p>
+                <p>How large is the age gap between you and your partner?</p>
             </div>
         </div>
         <div class="row justify-content-md-center">
             <div class="col-3">
                 <select class="form-control">
-                    <option class="unselected" >Selectable 1</option>
-                    <option>Selectable 2</option>
+                    <option selected="true" disabled="disabled" value="">Age gap</option>
+                    <option class="unselected" value="03">0-3 Years</option>
+                    <option class="unselected" value="45">4-5 Years</option>
+                    <option class="unselected" value="613">6-10 Years</option>
+                    <option class="unselected" value="1120">11-20 Years</option>
+                    <option class="unselected" value="21">21+ Years</option>
                 </select>
             </div>
         </div>
         <div class="row justify-content-md-center question_margin">
             <div class="col-3">
-                <p>What is your relationship orientation?</p>
+                <p>Are you in a same-sex relationship?</p>
             </div>
         </div>
         <div class="row justify-content-md-center">
             <div class="col-3">
                 <select class="form-control">
-                    <option>Selectable 1</option>
-                    <option>Selectable 2</option>
+                    <option selected="true" disabled="disabled" value="">Orientation</option>
+                    <option class="unselected">Yes (Same Sex)</option>
+                    <option>No (Different Sex)</option>
                 </select>
             </div>
         </div>
         <div class="row justify-content-md-center question_margin">
             <div class="col-3">
-                <p>Do you have kids?</p>
+                <p>Are you the same race as your partner?</p>
             </div>
         </div>
         <div class="row justify-content-md-center">
             <div class="col-3">
                 <select class="form-control">
-                    <option disabled>Selectable 1</option>
-                    <option>Selectable 2</option>
+                    <option selected="true" disabled="disabled" value="">Race</option>
+                    <option value="samerace">Yes (Same Race)</option>
+                    <option value="different race">No (Different Race)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row justify-content-md-center question_margin">
+            <div class="col-3">
+                <p>Do you and your partner have kids?</p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-3">
+                <select class="form-control">
+                    <option selected="true" disabled="disabled" value="">Kids</option>
+                    <option value="kids">Yes, We have kids</option>
+                    <option value="nokids">No, We don't have kids</option>
+                </select>
+            </div>
+        </div>
+        <div class="row justify-content-md-center question_margin">
+            <div class="col-3">
+                <p>Do you and your partner have a difference in education? (if so, about how many years difference?)</p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-3">
+                <select class="form-control">
+                    <option selected="true" disabled="disabled" value="">Education</option>
+                    <option value="02">0-2 Years</option>
+                    <option value="34">3-4 Years</option>
+                    <option value="56">5-6 Years</option>
+                    <option value="7">7+ Years</option>
                 </select>
             </div>
         </div>

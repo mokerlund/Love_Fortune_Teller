@@ -46,6 +46,20 @@ div.jumbotron {
     background-image: url(../images/billie-holiday.png);
     /* border-radius: 50px */
 }
+/* 
+.infotab
+    {
+    cursor: pointer;
+    }
+
+.tooltip
+    {
+    display: block;
+    position: absolute;
+    background-color: rgb(130, 150, 200);
+    padding: 5px;
+}
+ */
 
 .background {
     padding: 8px 6px 50px 6px;
