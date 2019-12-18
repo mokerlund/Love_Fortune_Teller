@@ -1,18 +1,9 @@
+/* Global */
+
 div.jumbotron {
     color: black;
     background: none;
     padding: 5%    
-}
-
-#btn1 {
-    background-color: #5a4254;
-    border-color: #5c4552;
-}
-
-#btn2 {
-    background-color: #5a4254;
-    border-color: #5c4552;
-    opacity: 100%;
 }
 
 .nav-link {
@@ -21,6 +12,55 @@ div.jumbotron {
 
 .nav-link.active {
     color: #5c4552;
+}
+
+.background {
+    padding: 8px 6px 50px 6px;
+    opacity: 90%;
+    background-color: transparent;
+    background-image: url(../images/billie-holiday.png);
+    border-radius: 50px
+}
+
+header {
+    background-image: url(../images/assault.png);
+    /* opacity: 85%; */
+}
+
+/* Home Page */
+
+#main {
+    background-image: url(../images/crystal-ball-14781928157ne.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btn1 {
+    background-color: #5a4254;
+    border-color: #5c4552;
+}
+
+.crystal {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#backgrounddiv {
+    margin-top: 100px;
+    padding: 8px 6px 50px 6px;
+}
+
+.hometext {
+    color: black;
+    text-shadow: .5px .5px 1px #5c4552;
+}
+
+/* Question Page */
+
+#btn2 {
+    background-color: #5a4254;
+    border-color: #5c4552;
+    opacity: 100%;
 }
 
 .qtext {
@@ -46,47 +86,60 @@ div.jumbotron {
     background-image: url(../images/billie-holiday.png);
     /* border-radius: 50px */
 }
-/* 
-.infotab
-    {
+
+.tooltip {
+    position: relative;
+    display: inline;
+}
+
+#icon {
+    visibility: visible;
+    opacity: 100%;
+    color: white;
+    display: inline;
+}
+
+.tooltip .tooltiptext {
+    visibility: visible;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: relative;
+    z-index: 1;
+}
+
+.tooltiptext {
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/* .infotab {
     cursor: pointer;
     }
 
-.tooltip
-    {
+.tooltip {
     display: block;
     position: absolute;
     background-color: rgb(130, 150, 200);
     padding: 5px;
-}
- */
+} */
 
-.background {
-    padding: 8px 6px 50px 6px;
-    opacity: 80%;
-    background-color: transparent;
-    background-image: url(../images/billie-holiday.png);
-    border-radius: 50px
-}
-
-p.crystal {
-    padding-top: 150px;
-    padding-bottom: 10px;
-}
-
-header {
-    background-image: url(../images/assault.png);
-    /* opacity: 85%; */
-}
-
-#main {
-    background-image: url(../images/crystal-ball-14781928157ne.jpg);    
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
 #questions {
     background-image: url(../images/tarot-991041_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* 
+.resultsonbottom {
+    max-width: 100%;
+    max-height: auto;
+    opacity: 50%;
+} */
