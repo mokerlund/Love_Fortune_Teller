@@ -46,6 +46,27 @@ import sys
 df = pd.read_csv("example_dataset_CSV.csv")
 df1 = df.groupby(['L1', 'L2','L3'])['L4'].sum()
 df1 = df1.reset_index()
+# dataStructure = {}
+
+# # reader = csv.reader(open(sys.argv[1], 'r'))
+# reader = csv.reader(open("example_dataset_CSV.csv", 'rU'), quotechar='"', delimiter = ',')
+# # reader.next() 
+# next(reader)
+for data in reader:
+    current = dataStructure
+    for item in data[:-2]:
+        # if not current.has_key(item):
+        if item not in current:
+            current[item] = {}
+
+        current = current[item]
+    # if not current.has_key(data[-2]):
+    if data[-2] not in current:
+        current[data[-2]] = 1
+    else:
+        current[data[-2]] += 1
+# # print('var data = ' + str(dataStructure))
+# print(json.dumps(dataStructure, indent=4))
 
 flare = dict()
 flare = {"name":"flare", "children": []}
@@ -72,20 +93,7 @@ for line in df1.values:
     #     }]
     #     }]
     #     })
-# for data in reader:
-        current = flare
-        for item in df1[:-2]:
-            # if not current.has_key(item):
-            if item not in current:
-                d['children'].append(current[item])
 
-                current = current[item]
-        # if not current.has_key(data[-2]):
-        if data[-2] not in current:
-            current[data[-2]] = 1
-        else:
-            current[data[-2]] += 1
-        flare = current
 
     # if 'the_parent' IS a key in the flare.json, add a new child to it
     # elif the_parent in keys_list:
