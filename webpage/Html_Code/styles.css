@@ -33,6 +33,7 @@ header {
     background-image: url(../images/crystal-ball-14781928157ne.jpg);    
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 #btn1 {
@@ -99,47 +100,40 @@ header {
     display: inline;
 }
 
-.tooltip .tooltiptext {
-    visibility: visible;
+.tooltiptext {
     width: 120px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, .6);
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-
     /* Position the tooltip */
-    position: relative;
+    position: absolute;
     z-index: 1;
-}
-
-.tooltiptext {
+    margin-left: 10px;
     visibility: hidden;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltiptext:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right-color: rgba(0, 0, 0, .6);
+    border-left: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.tooltip:hover ~ .tooltiptext {
     visibility: visible;
 }
-/* .infotab {
-    cursor: pointer;
-    }
-
-.tooltip {
-    display: block;
-    position: absolute;
-    background-color: rgb(130, 150, 200);
-    padding: 5px;
-} */
-
 
 #questions {
     background-image: url(../images/tarot-991041_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* 
-.resultsonbottom {
-    max-width: 100%;
-    max-height: auto;
-    opacity: 50%;
-} */
