@@ -137,3 +137,12 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Background page */
+
+.backgroundimg {
+    background-image: url(../images/billy-huynh-cycMgDyN5ko-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
