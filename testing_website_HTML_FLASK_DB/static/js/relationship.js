@@ -1,15 +1,16 @@
 //hard code values for filters to test
-var metValue = "met_at_school"
-console.log(metValue);
-var ageValue = "0 to 3"
+var ageValue = localStorage.getItem("ageValue");
 console.log(ageValue);
-var edValue = "0 to 2"
-console.log(edValue);
-var kidsValue = 0
+var metValue = localStorage.getItem("metValue");
+console.log(metValue);
+var kidsValue = localStorage.getItem("kidsValue");
 console.log(kidsValue);
-var sexValue = "same-sex couple"
-console.log(sexValue);
-
+var edValue = localStorage.getItem("edValue");
+console.log(edValue);
+var raceValue = localStorage.getItem("raceValue");
+console.log(raceValue);
+var sexValue = localStorage.getItem("sexValue");
+console.log("sexValue");
 
   //define function to filter based on how met response
 function selectMet(features) {
