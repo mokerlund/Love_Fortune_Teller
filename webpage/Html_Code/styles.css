@@ -12,6 +12,17 @@ div.jumbotron {
 
 .nav-link.active {
     color: #5c4552;
+    /* background-color: ; */
+}
+/* 
+li a.active {
+    background-color: #5c4552;
+    color: white;
+  } */
+
+li a:hover:not(.active) {
+    background-color: transparent;
+    color: white;
 }
 
 .background {
@@ -135,5 +146,19 @@ header {
 #questions {
     background-image: url(../images/tarot-991041_1920.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Results Page */
+
+#results {
+    background-image: url('../images/billy-huynh-cycMgDyN5ko-unsplash.jpg');
+    background-size: cover;
+}
+
+/* Background page */
+
+#backgroundimg {
+    background-image: url('../images/nasa-rTZW4f02zY8-unsplash.jpg');
     background-size: cover;
 }
