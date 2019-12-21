@@ -8,12 +8,11 @@ div.jumbotron {
 
 .nav-link {
     color: white;
-
 }
 
-.active {
-    color: white;
-    background-color: #5c4552;
+.nav-link.active {
+    color: #5c4552;
+    /* background-color: ; */
 }
 /* 
 li a.active {
@@ -22,9 +21,9 @@ li a.active {
   } */
 
 li a:hover:not(.active) {
-    /* background-color: none; */
+    background-color: transparent;
     color: white;
-  }
+}
 
 .background {
     padding: 8px 6px 50px 6px;
@@ -149,12 +148,15 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Results Page */
 
 #results {
     background-image: url('../images/billy-huynh-cycMgDyN5ko-unsplash.jpg');
     background-size: cover;
 }
+
+/* Background page */
 
 #backgroundimg {
     background-image: url('../images/nasa-rTZW4f02zY8-unsplash.jpg');

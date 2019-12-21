@@ -14,23 +14,31 @@ div.jumbotron {
     color: #5c4552;
 }
 
+li a:hover:not(.active) {
+    background-color: transparent;
+    color: white;
+}
+
 .background {
     padding: 8px 6px 50px 6px;
     opacity: 90%;
     background-color: transparent;
-    background-image: url(../../images/billie-holiday.png);
-    border-radius: 50px
+    /* background-image: url(../../images/billie-holiday.png); */
+    background-image: url_for('static', filename='images/billie-holiday.png');
+    border-radius: 50px;
 }
 
 header {
-    background-image: url(../../images/assault.png);
+    background-image: url(../images/assault.png);
     /* opacity: 85%; */
 }
 
 /* Home Page */
 
 #main {
-    background-image: url(../../images/crystal-ball-14781928157ne.jpg);    
+    /* background-image: url(../../images/crystal-ball-14781928157ne.jpg);    */
+    /* background-image: url({{ url_for('static', filename='crystal-ball-14781928157ne.jpg')}}); */
+    background-image: url('../images/crystal-ball-14781928157ne.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -84,7 +92,7 @@ header {
     margin-right: 0px;
     padding: 0px 8px 0px 50px;
     background-color: transparent;
-    background-image: url(../../images/billie-holiday.png);
+    background-image: url(../images/billie-holiday.png);
     /* border-radius: 50px */
 }
 
@@ -133,7 +141,21 @@ header {
 }
 
 #questions {
-    background-image: url(../../images/tarot-991041_1920.png);
+    background-image: url(../images/tarot-991041_1920.png);
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Results Page */
+
+#results {
+    background-image: url('../images/billy-huynh-cycMgDyN5ko-unsplash.jpg');
+    background-size: cover;
+}
+
+/* Background page */
+
+#backgroundimg {
+    background-image: url('../images/nasa-rTZW4f02zY8-unsplash.jpg');
     background-size: cover;
 }
