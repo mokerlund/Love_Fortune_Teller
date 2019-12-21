@@ -144,6 +144,9 @@ header {
     background-size: cover;
 }
 
+.sentenceColor{
+    color: white;
+}
 /* Background page */
 
 #backgroundimg {

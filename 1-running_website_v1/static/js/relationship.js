@@ -161,7 +161,8 @@ d3.json("http://127.0.0.1:5000/data").then(function(data){
     Plotly.newPlot(banana, plotting);
 
     document.getElementById("sentenceDiv").innerHTML = "<h1> The average relationship length based on your inputs is " + round_avg  +"</h1>";
-    document.getElementById("sentenceDiv2").innerHTML = "<h2> The first quartile is between 0 and " + Quart_25 + ". The second quartile is between " + Quart_25 + " and " + Quart_50 + " . The third quartile is between " + Quart_50 + " and " + Quart_75 + ". The fourth quartile is above " + Quart_75 + ".</h2>";
+    
+    //You are in the bottom 25% if your relationship is less than " + Quart_25 + ". The second quartile is between " + Quart_25 + " and " + Quart_50 + " . The third quartile is between " + Quart_50 + " and " + Quart_75 + ". The fourth quartile is above " + Quart_75 + ".</h2>";
 });
 d3.json("http://127.0.0.1:5000/percentDict").then(function(data){
     var aging = data.age_gap_bin_dict;
@@ -174,26 +175,27 @@ d3.json("http://127.0.0.1:5000/percentDict").then(function(data){
     console.log(meeting);
     var couple = data.same_sex_percent;
     console.log(couple);
-
+    console.log(metValue);
     var ageage = aging[ageValue];
     console.log(ageage);
     var kidskids = children[kidsValue];
     console.log(kidskids);
     var metmet = meeting[metValue];
-    console.log(metmet);
+    console.log(meeting[metValue]);
     var ss = couple[sexValue];
     console.log(ss);
     var eded = ed[edValue];
     console.log(eded);
 
-    var table = document.getElementById("myTable");
-    var row = table.insertRow(0);
-    var cell1 = row.insertCell(0);
-    var cell2 = row.insertCell(1);
-    var cell3 = row.insertCell(2);
-    cell1.innerHTML = "NEW CELL1";
-    cell2.innerHTML = "NEW CELL2";
-    cell3.innerHTML = "NEW CELL3";
+    document.getElementById("sentenceDiv2").innerHTML = "<h2>" + metmet + "% met the same way as you. <h2>" 
+    //var table = document.getElementById("myTable");
+    //var row = table.insertRow(0);
+    //var cell1 = row.insertCell(0);
+    //var cell2 = row.insertCell(1);
+    //var cell3 = row.insertCell(2);
+    //cell1.innerHTML = "NEW CELL1";
+    //cell2.innerHTML = "NEW CELL2";
+    //cell3.innerHTML = "NEW CELL3";
     //var tbody = d3.select("tbody");
     //var results = [{ageValue: ageage}, {kidsValue: kidskids}, {metValue: metmet}, {sexValue: ss}, {edValue: eded} ]
     //console.log(results);

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link  href="netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="stylesheet" href="../static/css/styles.css">
     <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"> -->
@@ -58,9 +58,11 @@
                         <option value="met_travel">Met While Traveling</option>
                         <option value="met_social">Met at a Social Organization (i.e. health club, volunteer service)
                         </option>
-                        <option value="private">Met at a Private Party/through family and friends</option>
-                        <option value="neighbors">Met as neighbors</option>
+                        <option value="met_party">Met at a Private Party</option>
+                        <option value="met_f_and_f">Met through family and friends</option>   
+                        <option value="met_as_neighbors">Met as neighbors</option>
                         <option value="met_other">Other</option>
+                        <option value="met_public_space">Met at bar/restaurant or other gathering place</option>
 
                     </select>
             </div>
@@ -101,11 +103,6 @@
                 <p>Are you the same race as your partner?</p>
             </div>
         </div>
-        <div class="row justify-content-md-center question_margin">
-            <div class="col-3">
-                <p>Are you the same race as your partner?</p>
-            </div>
-        </div>
         <div class="row justify-content-md-center">
             <div class="col-3">
                 <select class="form-control" id="race">
@@ -117,15 +114,21 @@
         </div>
         <div class="row justify-content-md-center question_margin">
             <div class="col-3">
-                <p>How large is the age gap between you and your partner?</p>
+                <p>How many kids do you have?</p>
             </div>
         </div>
     <div class="row justify-content-md-center">
         <div class="col-3">
             <select class="form-control" id="kids">
                 <option selected="true" disabled="disabled" value="">Kids</option>
-                <option value="1">Yes, We have kids</option>
-                <option value="0">No, We don't have kids</option>
+                <option value="0">None</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
             </select>
         </div>
     </div>
@@ -155,10 +158,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         crossorigin="anonymous"></script>
-    <!-- <script src="styles.js"></script> -->
-
+    <script src="../static/css/styles.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="../static/js/inputs.js"></script>
     <!-- RR added, probably wrong -->
-    <script src="{{ url_for('static', filename='css/styles.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='css/styles.js') }}"></script> -->
 </body>
 
 </html>
