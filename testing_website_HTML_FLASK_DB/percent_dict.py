@@ -6,32 +6,30 @@ percentDict = {
         ">6": 3.39
     },
     "how_met_unique_percent": {
-        "met_as_neighbors": 1.3,
-        "met_at_church": 5.02,
-        "met_at_school": 16.98,
-        "met_at_work": 24.66,
-        "met_f_and_f": 13.89,
+        "neighbors": 1.3,
+        "church": 5.02,
+        "school": 16.98,
+        "work": 24.66,
+        "private": 23.96,
         "met_offline_dating": 0.76,
-        "met_online": 10.6,
-        "met_other": 0.13,
-        "met_party": 10.07,
-        "met_public_space": 8.74,
-        "met_social": 4.85,
-        "met_travel": 1.79
+        "online": 10.6,
+        "other": 8.87,
+        "social": 4.85,
+        "travel": 1.79
     },
     "same_sex_percent": {
         "different sex couple": 84.25,
         "same-sex couple": 15.75
     },
     "children_in_hh_percent": {
-        "0.0": 72.95,
-        "1.0": 12.1,
-        "2.0": 10.24,
-        "3.0": 3.59,
-        "4.0": 0.86,
-        "5.0": 0.2,
-        "6.0": 0.03,
-        "7.0": 0.03
+        0: 72.95,
+        1: 12.1,
+        2: 10.24,
+        3: 3.59,
+        4: 0.86,
+        5: 0.2,
+        6: 0.03,
+        7: 0.03
     },
     "children_in_hh_y_n_percent": {
         "n": 72.95,

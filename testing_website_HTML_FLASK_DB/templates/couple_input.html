@@ -43,114 +43,111 @@
                 </p>
             </div>
         </div>
-        <form action="results">
-            <div class="row justify-content-md-center">
-                <div class="col-3">
-                    <select class="form-control" required>
-                        <option selected="true" disabled="disabled" value="">Place Met</option>
-                        <option value="online">Met Online</option>
-                        <option value="work">Met at Work</option>
-                        <option value="school">Met at School</option>
-                        <option value="church">Met at Church</option>
-                        <option value="travel">Met While Traveling</option>
-                        <option value="social">Met at a Social Organization (i.e. health club, volunteer service)</option>
-                        <option value="private">Met at a Private Party/through family and friends</option>
-                        <option value="neighbors">Met as neighbors</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
+        <div class="row justify-content-md-center">
+            <div class="col-3">
+                <form action="results.html">
+                <select id="met" class="form-control"  required>
+                    <option selected="true" disabled="disabled" value="">Place Met</option>
+                    <option value="online">Met Online</option>
+                    <option value="work">Met at Work</option>
+                    <option value="school">Met at School</option>
+                    <option value="church">Met at Church</option>
+                    <option value="travel">Met While Traveling</option>
+                    <option value="social">Met at a Social Organization (i.e. health club, volunteer service)</option>
+                    <option value="private">Met at a Private Party/through family and friends</option>
+                    <option value="neighbors">Met as neighbors</option>
+                    <option value="other">Other</option>
+
+                </select>
+            </div>
+        </div>
+        <div class="row justify-content-md-center question_margin">
+            <div class="col-3">
+                <p>How large is the age gap between you and your partner?</p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-3">
+                <select class="form-control" id="age">
+                    <option selected="true" disabled="disabled" value="">Age gap</option>
+                    <option class="unselected" value="0 to 3">0-3 Years</option>
+                    <option class="unselected" value="4 to 5">4-5 Years</option>
+                    <option class="unselected" value="6 to 10">6-10 Years</option>
+                    <option class="unselected" value="11 to 20">11-20 Years</option>
+                    <option class="unselected" value="21">21+ Years</option>
+                </select>
+            </div>
+        </div>
+        <div class="row justify-content-md-center question_margin">
+            <div class="col-3">
+                <p>Are you in a same-sex relationship?</p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-3">
+                <select class="form-control" id="sexuality">
+                    <option selected="true" disabled="disabled" value="">Orientation</option>
+                    <option class="unselected" value="same-sex couple">Yes (Same Sex)</option>
+                    <option value ="different sex couple">No (Different Sex)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row justify-content-md-center question_margin">
+            <div class="col-3">
+                <p>Are you the same race as your partner?</p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-3">
+                <select class="form-control" id="race">
+                    <option selected="true" disabled="disabled" value="">Race</option>
+                    <option value="samerace">Yes (Same Race)</option>
+                    <option value="different race">No (Different Race)</option>
+                </select>
             </div>
             <div class="row justify-content-md-center question_margin">
                 <div class="col-3">
                     <p>How large is the age gap between you and your partner?</p>
                 </div>
             </div>
-            <div class="row justify-content-md-center">
-                <div class="col-3">
-                    <select class="form-control">
-                        <option selected="true" disabled="disabled" value="">Age gap</option>
-                        <option class="unselected" value="03">0-3 Years</option>
-                        <option class="unselected" value="45">4-5 Years</option>
-                        <option class="unselected" value="613">6-10 Years</option>
-                        <option class="unselected" value="1120">11-20 Years</option>
-                        <option class="unselected" value="21">21+ Years</option>
-                    </select>
-                </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-3">
+                <select class="form-control" id="kids">
+                    <option selected="true" disabled="disabled" value="">Kids</option>
+                    <option value="1">Yes, We have kids</option>
+                    <option value="0">No, We don't have kids</option>
+                </select>
             </div>
-                <div class="row justify-content-md-center question_margin">
-                    <div class="col-3">
-                        <p>Are you in a same-sex relationship?</p>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center">
-                    <div class="col-3">
-                        <select class="form-control">
-                            <option selected="true" disabled="disabled" value="">Orientation</option>
-                            <option class="unselected">Yes (Same Sex)</option>
-                            <option>No (Different Sex)</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center question_margin">
-                    <div class="col-3">
-                        <p>Are you the same race as your partner?</p>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center">
-                    <div class="col-3">
-                        <select class="form-control">
-                            <option selected="true" disabled="disabled" value="">Race</option>
-                            <option value="samerace">Yes (Same Race)</option>
-                            <option value="different race">No (Different Race)</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center question_margin">
-                    <div class="col-3">
-                        <p>Do you and your partner have kids?</p>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center">
-                    <div class="col-3">
-                        <select class="form-control">
-                            <option selected="true" disabled="disabled" value="">Kids</option>
-                            <option value="kids">Yes, We have kids</option>
-                            <option value="nokids">No, We don't have kids</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center question_margin">
-                    <div class="col-3">
-                        <p>Do you and your partner have a difference in education? (if so, about how many years
-                            difference?)</p>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center">
-                    <div class="col-3">
-                        <select class="form-control">
-                            <option selected="true" disabled="disabled" value="">Education</option>
-                            <option value="02">0-2 Years</option>
-                            <option value="34">3-4 Years</option>
-                            <option value="56">5-6 Years</option>
-                            <option value="7">7+ Years</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center">
-                    <input class="btn btn-primary my-2" id="btn2" type="submit" value="Submit">
-                </div>
+        </div>
+        <div class="row justify-content-md-center question_margin">
+            <div class="col-3">
+                <p>Do you and your partner have a difference in education? (if so, about how many years difference?)</p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-3">
+                <select class="form-control" id="education">
+                    <option selected="true" disabled="disabled" value="">Education</option>
+                    <option value="0 to 2">0-2 Years</option>
+                    <option value="3 to 4">3-4 Years</option>
+                    <option value="5 to 6">5-6 Years</option>
+                    <option value="7">7+ Years</option>
+                </select>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+             <input class="btn btn-primary my-2" id="btn2" type="submit" value="Submit">
         </form>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    crossorigin="anonymous"></script>
     <!-- <script src="styles.js"></script> -->
-    
-    <!-- RR added, probably wrong -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="{{ url_for('static', filename='css/styles.js') }}"></script>
-</body>
-
-</html>
+    <script src="{{ url_for('static', filename='js/inputsjs') }}"></script>
+    
+    <!-- <script src="../static/js/inputs.js"></script> -->
+    </body>
+    </html>
