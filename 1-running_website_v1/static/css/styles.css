@@ -140,13 +140,13 @@ header {
 /* Results Page */
 
 #results {
-    background-image: url('../images/billy-huynh-cycMgDyN5ko-unsplash.jpg');
+    background-image: url(../images/billy-huynh-cycMgDyN5ko-unsplash.jpg);
     background-size: cover;
 }
 
 /* Background page */
 
 #backgroundimg {
-    background-image: url('../images/nasa-rTZW4f02zY8-unsplash.jpg');
+    background-image: url(../images/nasa-rTZW4f02zY8-unsplash.jpg);
     background-size: cover;
 }
