@@ -159,8 +159,8 @@ d3.json("http://127.0.0.1:5000/data").then(function(data){
  
     Plotly.newPlot(banana, plotting);
 
-    document.getElementById("statement").innerHTML = "<h1> The average relationship length based on your inputs is" + avg  +"</h1>"
-    document.getElementById("statement2").innerHTML = "<h2> The first quartile is between 0 and " + Quart_25 + "with the second quartile between " + Quart _25 " and " Quart_50 ".  The third quartile is between " + Quart_50 " and " + Quart_75 " with the 4th quartile over " Quart_75 "."</h2>
+    document.getElementById("sentenceDiv").innerHTML = "<h1> The average relationship length based on your inputs is" + avg  +"</h1>"
+    document.getElementById("sentenceDiv2").innerHTML = "<h2> The first quartile is between 0 and " + Quart_25 + "with the second quartile between " + Quart _25 " and " Quart_50 ".  The third quartile is between " + Quart_50 " and " + Quart_75 " with the 4th quartile over " Quart_75 "."</h2>
     
 });
 d3.json("http://127.0.0.1:5000/percentDict").then(function(data){
@@ -188,7 +188,7 @@ d3.json("http://127.0.0.1:5000/percentDict").then(function(data){
 
     results = [{ageValue: ageage}, {kidsValue: kidskids}, {metValue: metmet}, {sexValue: ss}, {edValue: eded} ]
     results.forEach((entry) => {
-        var row = tbody.append("tr");
+        var row = tableDiv.append("tr");
         Object.entries(entry).forEach(([key, value]) => {
             var cell = row.append("td");
             cell.text(value);
