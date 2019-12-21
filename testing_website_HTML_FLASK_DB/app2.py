@@ -33,28 +33,37 @@ Base.prepare(db.engine, reflect=True)
 
 table = Base.classes.api_data_table
 
-@app.route("/")
+@app.route("/", strict_slashes=False)
 def index():
     """Return the homepage."""
     return render_template("index.html")
 
-@app.route("/couple_input/")
+@app.route("/results/couple_input", strict_slashes=False)
+@app.route("/couple_input", strict_slashes=False)
 def couple_input():
     """Return the homepage."""
     return render_template("couple_input.html")
 
-@app.route("/couple_input/results/")
+# roundabout way to click through multiple websites:
+# @app.route("/couple_input/background", strict_slashes=False)
+# def couple_input():
+#     """Return the homepage."""
+#     return render_template("background.html")
+
+@app.route("/couple_input/results", strict_slashes=False)
+@app.route("/results", strict_slashes=False)
 def results():
     """Return the homepage."""
     return render_template("results.html")
 
-@app.route("/background/")
+
+@app.route("/couple_input/background", strict_slashes=False)
+@app.route("/background", strict_slashes=False)
 def background():
     """Return the homepage."""
     return render_template("background.html")
     
-
-@app.route("/data")
+@app.route("/data", strict_slashes=False)
 def sample_metadata():
     """Return the MetaData for all sample."""
 

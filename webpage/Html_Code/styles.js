@@ -15,3 +15,9 @@
 //     clearTimeout(tooltipTimeout);
 //     $("#tooltip").fadeOut().remove();
 //     }
+
+$(function () {
+    $('.example-popover').popover({
+      container: 'body'
+    })
+  })
